@@ -10,15 +10,15 @@ With this syntax, 'option' refers to one or more options that determine how rena
 Options are specific arguments provided to the program on the that determine how the rename executes. Options always start with a dash ("-"), and typically require one or more additional arguments to function. The program itself requires at least two options to function: '-file' to designate the file to process, and one or more additional options to specify the rename rules.  
 
 The following options are supported:
-` -help                     :: print out a help page and exit the program. 
+> -help                     :: print out a help page and exit the program. 
   
-  -prefix [string]          :: rename [filename] so that it starts with [string].  
+>  -prefix [string]          :: rename [filename] so that it starts with [string].  
   
-  -suffix [string]          :: rename [filename] so that it ends with [string].    
+>  -suffix [string]          :: rename [filename] so that it ends with [string].    
  
-  -replace [str1] [str2]    :: rename [filename] by replacing all instances of [str1] with [str2].  
+>  -replace [str1] [str2]    :: rename [filename] by replacing all instances of [str1] with [str2].  
   
-  -file [filename]          :: indicate the [filename] to be modified.  ` 
+>  -file [filename]          :: indicate the [filename] to be modified.  
 
 
 ## Parameter
