@@ -11,11 +11,11 @@ Options are specific arguments provided to the program on the that determine how
 
 The following options are supported:
 `
-  -help                     :: print out a help page and exit the program.  
-  -prefix [string]          :: rename [filename] so that it starts with [string].   
-  -suffix [string]          :: rename [filename] so that it ends with [string].   
-  -replace [str1] [str2]    :: rename [filename] by replacing all instances of [str1] with [str2].   
-  -file [filename]          :: indicate the [filename] to be modified.  
+  -help                     :: print out a help page and exit the program.  <br>
+  -prefix [string]          :: rename [filename] so that it starts with [string].    <br>
+  -suffix [string]          :: rename [filename] so that it ends with [string].    <br>
+  -replace [str1] [str2]    :: rename [filename] by replacing all instances of [str1] with [str2].   <br>
+  -file [filename]          :: indicate the [filename] to be modified.  <br>
   ` 
 
 
