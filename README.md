@@ -73,17 +73,17 @@ java rename -prefix a // no filename provided
 java rename -prefix a -suffix b f1 // no filename provided (`f1` interpreted as argument to suffix instead of a filename)
 java rename -prefix a -suffix b -file f3 // error if file f3 does not exist
 The `-help` option should display all of the options and their required arguments. The format should resemble this:
-
-  (c) 2020 Kexin Yang. Last revised: Jan 2, 2020.
-  Usage: java rename [-option argument1 argument2 ...]
+`
+  (c) 2020 Kexin Yang. Last revised: Jan 2, 2020.  
+  Usage: java rename [-option argument1 argument2 ...]  
 
   Options:
-  -help                   :: display this help and exit.
-  -prefix [string]        :: rename the file so that it starts with [string].
-  -suffix [string]        :: rename the file so that it ends with [string]. 
-  -replace [str1] [str2]  :: rename [filename] by replacing all instances of [str1] with [str2]. 
-  -file [filename]        :: indicate the [filename] to be modified. 
-
+  -help                   :: display this help and exit.  
+  -prefix [string]        :: rename the file so that it starts with [string].  
+  -suffix [string]        :: rename the file so that it ends with [string].   
+  -replace [str1] [str2]  :: rename [filename] by replacing all instances of [str1] with [str2].   
+  -file [filename]        :: indicate the [filename] to be modified.   
+`
 
 ## Renaming Files
 You can assume that files are always in the current directory (i.e. you do not need to support relative paths when renaming files).
@@ -95,11 +95,11 @@ If you are renaming more than one file, and one of the file operations fail, it 
 ## Technical Requirements
 You must use Java 11 and IntelliJ 2019.3 or later. You are required to submit the source code and project files.
 You may use classes from the JDK, and samples provided in the public repo. You cannot use any other source code without permission from the instructor.
-Your main class should be named `rename' and reside, with a Main() method, in a file named `rename.java' [Ed: yes I'm aware that this breaks naming conventions, but we want a lower-case name on the command-line].
+Your main class should be named `rename' and reside, with a Main() method, in a file named `rename.java` [Ed: yes I'm aware that this breaks naming conventions, but we want a lower-case name on the command-line].
 
 
 
 Some notes for TA:
 
-1. I have included a f1, f2 files in the same directory as my rename.java file, for your testing purpose.
+1. I have included a f1, f2 files in the same directory as my rename.java file, for testing purpose.
 2. I have copy-pasted the a1.iml from A0, I am not sure if this will result in any trouble, please let me know if there are any trouble compiling it. 
