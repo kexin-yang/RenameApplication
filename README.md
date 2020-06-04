@@ -24,14 +24,15 @@ The following options are supported:
 ## Parameter
 Most options require one or more additional parameters to operate, which immediately follow the option on the command-line. Parameters cannot start with a dash ("-"), since that symbol is used to designate options. Parameters consist of one or more of the following:
 
-a string, or
-@date which should be replaced by your program with the current date as a string (MM-DD-YYYY format), or
-@time which should be replaced by your program with the current time as a string (HH-MM-SS format).
-In the case of options that support multiple parameters (described below), they should be separated by a space. e.g. `java rename -replace a b -file file1.txt'
+* a string, or
+* @date which should be replaced by your program with the current date as a string (MM-DD-YYYY format), or
+* @time which should be replaced by your program with the current time as a string (HH-MM-SS format).
 
-The `-help' option does not require additional parameters.
+In the case of options that support multiple parameters (described below), they should be separated by a space. e.g. `java rename -replace a b -file file1.txt`
 
-The `-prefix' and `-suffix' options both support one or more parameters. If more than one parameter is provided, they should be concatenated together and treated as a single input string (e.g. `-prefix a b c' is the same as '-prefix abc').
+The `-help` option does not require additional parameters.
+
+The `-prefix` and `-suffix` options both support one or more parameters. If more than one parameter is provided, they should be concatenated together and treated as a single input string (e.g. `-prefix a b c` is the same as `-prefix abc`).
 
 The `-replace` option is unique, in that it must be passed exactly two arguments, representing the source and destination for the rename operation.
 
