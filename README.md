@@ -1,4 +1,4 @@
-Rename Utility
+## Rename Utility
 Build a command-line application that can rename files.
 
 Syntax:
